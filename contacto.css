@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: url(espacio-copia-tarjeta-visita-minimalista.jpg);
+    background-size: 100% 210%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#titulo {
+    width: 400px;
+    height: 70px;
+    margin: 70px auto 70px; 
+    padding: 20px; 
+    border: 3px solid #333;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#boton1, #boton2 {
+    display: inline-block;
+    margin: 50px;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+#boton1 {
+    background-color: #333;
+    background-image: url('github-sign.png'); 
+    background-size: cover;
+}
+
+#boton2 {
+    background-color: #0077B5;
+    background-image: url('linkedin.png'); 
+    background-size: cover;
+}
+
+#correo {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    border: 3px solid #333;
+}
+
+#correo img {
+    width: 60px;
+    height: auto;
+}

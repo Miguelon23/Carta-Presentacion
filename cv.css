@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00FFFF;
+}
+
+h3 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.Cont, .Obj, #Hab, #int {
+    background-color: gainsboro;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Exp {
+    background-color: gainsboro; /* Fondo gris claro para Experiencia Profesional */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Edu {
+    background-color: gainsboro; /* Fondo gris claro diferente para Educación */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Hab, #int {
+    margin-top: 30px;
+}
+
+#Hab h3, #int h3 {
+    margin-bottom: 10px;
+}
+
+#Hab p, #int p {
+    margin-bottom: 5px;
+}
+
+.foto-contacto {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li img {
+    width: 20px; 
+    height: auto;
+    margin-right: 10px; 
+}
